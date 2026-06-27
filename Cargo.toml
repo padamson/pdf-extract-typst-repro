@@ -1,0 +1,9 @@
+[package]
+name = "pdf-extract-typst-repro"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+# Garbles typst text extraction. Pin "=0.10.0" to see the correct output.
+pdf-extract = "0.12"
